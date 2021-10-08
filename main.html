@@ -8,16 +8,19 @@
     <title>Document</title>
    
 </head>
+
+
+
 <body>
     <nav  class="navbar">
         <h1 style="padding-left:25%;padding-right: 10%;">ZIPPY</h1>
-        <a class="nav_item" href="#sec1">HOME</a>
-        <a class="nav_item" href="#sec2">PROJECT</a>
-        <a class="nav_item" href="#sec3">PRICING</a>
-        <a class="nav_item" href="#sec4">TEAM</a>
-        <a class="nav_item" href="info_table.html">BLOG</a>
-        <a class="nav_item" href="info_table.html">CONTACT</a>
-   
+        <a class="nav_item" href="#sec1">HOME<span class="line" ></span></a>
+        <a class="nav_item" href="#sec2">PROJECT<span class="line"></span></a>
+        <a class="nav_item" href="#sec3">PRICING<span class="line"></span></a>
+        <a class="nav_item" href="#sec4">TEAM<span class="line"></span></a>
+        <a class="nav_item" href="info_table.html">BLOG<span class="line"></span></a>
+        <a class="nav_item" href="#sec7">CONTACT<span class="line"></span></a>
+        
         
 
 
@@ -186,27 +189,123 @@
                 <button>BUY</button>
             </div>
         </div>
-    </div>
-    <div class="sec5" id="sec5">
-        <h1>VIDEOS</h1>
+        <h1>VIDEOS</h1><br>
         <div class="videomain">
-            <video width="320" height="240" autoplay>
-                <source src="https://www.youtube.com/watch?v=kdvVwGrV7ec" type="video/mp4">
             
-              </video> 
-            <iframe src="https://www.youtube.com/watch?v=kdvVwGrV7ec"></iframe>
-            <iframe src="https://www.youtube.com/watch?v=kdvVwGrV7ec"></iframe>
-            <iframe src="https://www.youtube.com/watch?v=kdvVwGrV7ec"></iframe>
-            <iframe src="https://www.youtube.com/watch?v=kdvVwGrV7ec"></iframe>
+            <iframe src="test.mp4"></iframe>
+            <iframe src="test.mp4"></iframe>
+            <iframe src="test.mp4"></iframe>
+            <iframe src="test.mp4"></iframe>
+            <iframe src="test.mp4"></iframe>
+            <iframe src="test.mp4"></iframe>
+            <iframe src="test.mp4"></iframe>
         </div>
     </div>
-    <div class="sec6" id="sec6">
+    <div class="sec5" id="sec5">
+       <h1>ZIPPY TEAM</h1>
+       <div class="teammain">
+           <div class="mem1">
+               <img id="teamimg" src="mountain.jpg"/>
+               <h1>NAME</h1>
+               <h4>ROLE</h4>
+               <div class="innerover1">
+                   <i class="fas fa-google"></i>
+                   <p>hello</p>
+               </div>
+           </div>
+           <div  class="mem2">
+            <img id="teamimg" src="mountain.jpg"/>
+            <h1>NAME</h1>
+            <h4>ROLE</h4>
+            <div class="innerover1">
+                <i class="fas fa-google"></i>
+                <p>hello</p>
+            </div>
+           </div>
+           <div class="mem3">
+            <img id="teamimg" src="mountain.jpg"/>
+            <h1>NAME</h1>
+            <h4>ROLE</h4>  
+            <div class="innerover1">
+                <i class="fas fa-facebook-messenger"></i>
+                <p>hello</p>
+            </div>
+           </div>
+           <div class="mem4">
+            <img id="teamimg" src="mountain.jpg"/>
+            <h1>NAME</h1>
+            <h4>ROLE</h4>
+            <div class="innerover1">
+                <i class="fas fa-google"></i>
+                <p>hello</p>
+            </div>
+           </div>
+           <div class="mem5">
+            <img id="teamimg" src="mountain.jpg"/>
+            <h1>NAME</h1>
+            <h4>ROLE</h4>
+            <div class="innerover1">
+                <i class="fas fa-google"></i>
+                <p>hello</p>
+            </div>
+           </div>
+           <div class="mem6">
+            <img  id="teamimg" src="mountain.jpg"/>
+            <h1>NAME</h1>
+            <h4>ROLE</h4>
+            <div class="innerover1">
+                <i class="fas fa-google"></i>
+                <p>hello</p>
+            </div>
+           </div>
+       </div>
     </div>
-    <div class="sec7" id="sec7"></div>
+    <div class="sec6" id="sec6">
+        <h1>LIFE IN ZIPPY</h1>
+        <div>
+            <img src="mountain.jpg" style="width:600px;height:300px;"/>
+        </div>
+        <div class="imgrow">
+            <button class="pre"><--</button>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <img class="im" id="img1" src="mountain.jpg" style="width:100px;height:100px;"/>
+            <!-- <img class="img1" src="mountain.jpg" style="width:100px;height:100px;"/> -->
+            <button class="nxt">--></button>
+        </div>
+      
+    </div>
+    <div class="sec7" id="sec7">
+        <div class="newslet">
+            <h1>NewsLetter Sign Up</h1>
+            <input type="email" placeholder="kavin@mail.com"/>
+            <button>SIGN UP</button>
+        </div>
+        <div class="blog"></div>
+    </div>
     <div class="sec8" id="sec8"></div>
     <div class="sec9"></div>
     <div class="sec10"></div>
 </body>
+<script type="text/javascript">
+    const pre = document.querySelector(".pre")
+    const nxt = document.querySelector(".nxt")
+    const img = document.getElementById("img1")
+    const im = document.querySelectorAll(".im")
+   
+    var newimg = "BACKGROUND1.jpg";
+    nxt.addEventListener("click",()=>{
+        im.forEach((img)=>{
+        nxt.onclick = img.src = newimg;
+        
+        })
+    })
+
+</script>
 <script type="text/javascript">
     const nextBtn = document.querySelector(".nxt-btn");
     const prevBtn = document.querySelector(".prev-btn");
@@ -244,4 +343,62 @@
         slideIcons[sn].classList.add("active");
     })
    </script>
+   <script type="text/javascript">
+     const lines = document.querySelectorAll(".line")
+
+     const sec1 = document.getElementById("sec1")
+     const sec2 = document.getElementById("sec2")
+     const sec3 = document.getElementById("sec3")
+     const sec4 = document.getElementById("sec4")
+     const sec5 = document.getElementById("sec5")
+
+
+
+     sec1.addEventListener("mouseover",()=>{
+         console.log("hovering")
+         lines.forEach((line)=>{
+             line.classList.remove("underl")
+         })
+         lines[0].classList.add("underl")
+     })
+
+     sec2.addEventListener("mouseover",()=>{
+         console.log("hovering")
+         lines.forEach((line)=>{
+             line.classList.remove("underl")
+         })
+         lines[1].classList.add("underl")
+     })
+
+     sec3.addEventListener("mouseover",()=>{
+         console.log("hovering")
+         lines.forEach((line)=>{
+             line.classList.remove("underl")
+         })
+         lines[2].classList.add("underl")
+     })
+     sec4.addEventListener("mouseover",()=>{
+         console.log("hovering")
+         lines.forEach((line)=>{
+             line.classList.remove("underl")
+         })
+         lines[3].classList.add("underl")
+     })
+     sec5.addEventListener("mouseover",()=>{
+         console.log("hovering")
+         lines.forEach((line)=>{
+             line.classList.remove("underl")
+         })
+         lines[4].classList.add("underl")
+     })
+     sec6.addEventListener("mouseover",()=>{
+         console.log("hovering")
+         lines.forEach((line)=>{
+             line.classList.remove("underl")
+         })
+         lines[5].classList.add("underl")
+     })
+   </script>
+
+
 </html>
